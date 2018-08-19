@@ -1,4 +1,5 @@
-
+from nose.tools import eq_
+from nose.tools import ok_
 class check_response():
     @staticmethod
     def check_result(response, params, expectNum=None):
