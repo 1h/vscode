@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<testsuite errors="2" failures="0" name="MyTest2-20180820114912" tests="3" time="0.583">
+	<testcase classname="MyTest2" name="testc" time="0.240"/>
+	<testcase classname="MyTest2" name="testd" time="0.175">
+		<error message="3 != 2" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "c:\Users\Hu\Documents\Study\unittest1.py", line 23, in testd
+    self.assertEqual(3, 2)
+AssertionError: 3 != 2
+]]>		</error>
+	</testcase>
+	<testcase classname="MyTest2" name="testhaha" time="0.169">
+		<error message="2 != 1" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "c:\Users\Hu\Documents\Study\unittest1.py", line 20, in testhaha
+    self.assertEqual(2, 1)
+AssertionError: 2 != 1
+]]>		</error>
+	</testcase>
+	<system-out>
+<![CDATA[]]>	</system-out>
+	<system-err>
+<![CDATA[]]>	</system-err>
+</testsuite>
