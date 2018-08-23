@@ -1,0 +1,66 @@
+test_add (test_mathfunc.TestMathFunc)
+Test method add(a, b) ... ok
+test_min (test_mathfunc.TestMathFunc)
+Test method min(a, b) ... FAIL
+test_mul (test_mathfunc.TestMathFunc)
+Test method mul(a, b) ... ok
+test_truediv (test_mathfunc.TestMathFunc)
+Test method truediv(a, b) ... ok
+
+======================================================================
+FAIL: test_min (test_mathfunc.TestMathFunc)
+Test method min(a, b)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\Hu\Documents\Study\test_mathfunc.py", line 15, in test_min
+    self.assertEqual(1, min(3, 2))
+AssertionError: 1 != 2
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.001s
+
+FAILED (failures=1)
+test_add (test_mathfunc.TestMathFunc)
+Test method add(a, b) ... ok
+test_min (test_mathfunc.TestMathFunc)
+Test method min(a, b) ... FAIL
+test_mul (test_mathfunc.TestMathFunc)
+Test method mul(a, b) ... ok
+test_truediv (test_mathfunc.TestMathFunc)
+Test method truediv(a, b) ... ok
+
+======================================================================
+FAIL: test_min (test_mathfunc.TestMathFunc)
+Test method min(a, b)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "c:\Users\Hu\Documents\Study\test_mathfunc.py", line 15, in test_min
+    self.assertEqual(1, min(3, 2))
+AssertionError: 1 != 2
+
+----------------------------------------------------------------------
+Ran 4 tests in 3.672s
+
+FAILED (failures=1)
+test_add (test_mathfunc.TestMathFunc)
+Test method add(a, b) ... ok
+test_min (test_mathfunc.TestMathFunc)
+Test method min(a, b) ... FAIL
+test_mul (test_mathfunc.TestMathFunc)
+Test method mul(a, b) ... ok
+test_truediv (test_mathfunc.TestMathFunc)
+Test method truediv(a, b) ... ok
+
+======================================================================
+FAIL: test_min (test_mathfunc.TestMathFunc)
+Test method min(a, b)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\Hu\Documents\Study\test_mathfunc.py", line 15, in test_min
+    self.assertEqual(1, min(3, 2))
+AssertionError: 1 != 2
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.002s
+
+FAILED (failures=1)
